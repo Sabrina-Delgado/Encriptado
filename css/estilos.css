@@ -1,0 +1,146 @@
+
+.portada-del-lado-derecho {
+    background-color: #4b685a;
+    height: 680px;
+    color: white;
+    width: 500px;
+    float: right;
+}
+main {
+    margin-top: 0%;
+}
+
+.title {
+    margin-top: 0%;
+    margin-bottom : 0%;
+    text-align: center;
+    font-size: 170px;
+    padding-left: 100px;
+    padding-right: 100px;
+    padding-top: 30px;
+    padding-bottom: 50px;
+    font-family: 'Roboto Mono', monospace;
+    word-break: break-all;
+    line-height: .75;
+}
+.sub-title {
+    margin-top: 12px;
+    margin-bottom: 0%;
+    padding-left: 50px;
+    padding-right: 50px;
+    font-family: 'Roboto Mono', monospace;
+    font-size: 30px;
+    text-align: center;
+}
+
+.explication {
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    margin-top: 9px;
+    padding-left: 40px;
+    padding-right: 40px;
+
+
+}
+.text-inputtex {
+   height: 20vh;
+   border: .5px solid lightslategray;
+   width: 120px;
+   height: 100px;
+}
+
+.fixed-width,
+input#userOffset.user-offset {
+    width: 50%;
+    margin-top: 1.5rem;
+}
+
+.cifrar-btn {
+    background-color: #f2f2f2;
+    color: #1A1A1A;
+    border-radius: 15px;
+    letter-spacing: 2px;
+    margin-right: 3%;
+}
+
+.descifrar-btn {
+    background-color: #1A1A1A;
+    color: #f2f2f2;
+    border-radius: 15px;
+    letter-spacing: 2px;
+}
+
+.result {
+    border: .5px solid lightslategray;
+    margin-left: 25%;
+    height: 20vh;
+}
+
+.cuerpo {
+    margin-top: 80px;
+    float: left;
+    width: 800px;
+    border:none;
+    display: block;
+
+}
+
+.textarea-inputtex{
+    display: block;
+    width: 350px;
+    height: 200px;
+    margin-top: 50px;
+    margin-left: 220px;
+    margin-bottom: 30px;
+    text-align: center;
+    
+}
+.number {
+    width: 350px;
+    margin-left:220px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    text-align: center;
+
+}
+.encriptar-button {
+    background-color: rgb(120, 153, 135);
+    color: black;
+    width: 130px;
+    height: 30px;
+    letter-spacing: 2px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    cursor: default;
+    margin-left:230px;
+    
+}
+.desencriptar-button {
+    background-color: rgb(120, 153, 135);
+    color: black;
+    width: 130px;
+    height: 30px;
+    letter-spacing: 2px;
+    align-items: flex-start;
+    box-sizing: border-box;
+    cursor: default;
+    margin-left:50px;
+}
+.row { 
+    margin-top: 0%;
+}
+.resultado-mensage {
+    border-bottom: black solid 1px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    background-color: rgb(238, 238, 238);
+    width: 350px;
+    height: 80px;
+    margin-left: 220px;
+    margin-top: 20px;
+    position: absolute;
+    text-align: center;
+    
+}

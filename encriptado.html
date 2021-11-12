@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encripted</title>
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+<body>
+    <div class="main">
+        <div class="row">
+            <div class="portada-del-lado-derecho">
+                <h1 class="title">SECRETOS</h1>
+                <p class="sub-title">Ciframos Textos en Cesar</p>
+                <p class="explication">Escriba un mensaje para que sea codificado, luego puede elegir un número secreto y enviar su mensaje encriptado de manera segura. Para descifrar, pegue el mensaje encriptado e ingrese el número secreto. El resultado siempre aparecerá en la parte inferior de los dos botones.</p>
+            </div>
+            <div class="cuerpo">
+                <textarea class="textarea-inputtex" id="texArea" placeholder="Ponga su mensaje aqui"></textarea>
+                <input class="number" id="number" type="number" placeholder="Escoge un numero">
+                <p id="tex?"></p>
+                <button class="encriptar-button" id="encriptar-button"  type="button" >Encriptar</button>
+                <button class="desencriptar-button" id="deesencriptar-button"  type="button" >Desencriptar</button>
+                <div class="resultado-mensage" id="resultado-mensaje" ><!----data-text="Encoded Message"  contenteditable="true" (dentro del div)--> </div> 
+                
+            </div>
+        </div>
+    </div>
+    <script src="js/encriptado.js"></script>
+    <script src="js/index.js"></script>
+</body>
