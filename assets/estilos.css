@@ -13,12 +13,12 @@ main {
 .title {
     margin-top: 0%;
     margin-bottom : 0%;
-    text-align: center;
-    font-size: 170px;
-    padding-left: 100px;
-    padding-right: 100px;
+    text-align:justify ;
+    font-size: 145px;
+    padding-left: 50px;
+    padding-right: 50px;
     padding-top: 30px;
-    padding-bottom: 50px;
+    padding-bottom: 150px;
     font-family: 'Roboto Mono', monospace;
     word-break: break-all;
     line-height: .75;
@@ -30,9 +30,8 @@ main {
     padding-right: 50px;
     font-family: 'Roboto Mono', monospace;
     font-size: 30px;
-    text-align: center;
+    text-align: center ;
 }
-
 .explication {
     font-family: 'Roboto Mono', monospace;
     text-align: center;
