@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Encripted</title>
-    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="assets/estilos.css">
 </head>
 <body>
     <div class="main">
@@ -16,12 +16,12 @@
                 <p class="explication">Crea contraseñas  mas seguras, a base de otas contraseñas, no tan seguras. Escriba un mensaje para que sea codificado, luego puede elegir un número secreto y enviar su mensaje encriptado de manera segura. Para descifrar, pegue el mensaje encriptado e ingrese el número secreto. El resultado siempre aparecerá en la parte inferior de los dos botones.</p>
             </div>
             <div class="cuerpo">
-                <textarea class="textarea-inputtex" id="texArea" placeholder="Ponga su mensaje aqui"></textarea>
-                <input class="number" id="number" type="number" placeholder="Escoge un numero">
-                <p id="tex?"></p>
-                <button class="encriptar-button" id="encriptar-button"  type="button" >Encriptar</button>
-                <button class="desencriptar-button" id="deesencriptar-button"  type="button" >Desencriptar</button>
-                <div type="text" class="resultado-mensage" id="resultado-mensaje" name ><!----data-text="Encoded Message"  contenteditable="true" (dentro del div)--> </div> 
+                <textarea class="textarea-inputtex" id="mensaje" placeholder="Ponga su mensaje aqui"></textarea>
+                <input class="number" id="desplazamiento" type="number" placeholder="Escoge un numero">
+                <p id="mensaje2"></p>
+                <button class="encriptar-button" id="cifrar"  type="button" >Encriptar</button>
+                <button class="desencriptar-button" id="descifrar"  type="button" >Desencriptar</button>
+                <div type="text" class="resultado-mensage" id="mensaje2" name="mensaje2" ><!----data-text="Encoded Message"  contenteditable="true" (dentro del div)--> </div> 
                 
             </div>
         </div>
