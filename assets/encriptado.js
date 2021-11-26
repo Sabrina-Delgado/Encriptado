@@ -58,4 +58,26 @@ function cifrar2(texto, desplazamiento) {
         }
     }
     return resultado;
+}
+
+//tambien se intento:
+
+function cifrarcodigo(texto, desplazamiento) {
+    if (!texto) 
+        return ''; // No se recomienda que haya más de un punto de salida de la función
+    const letras = '1234567890+*-";,?¡=)(/&%#:';
+    //Si aceptamos desplazamientos negativos, necesitamos hacerlo dos veces. Si no, sería:
+    //desplazamiento = desplazamiento % 26;
+    desplazamiento = (desplazamiento % 26 + 26) % 26; 
+    return texto.replace(/[1-:]/ig, c => letras[(letras.indexOf(c) + desplazamiento) % 26]);
+}
+
+function descifrarcodigo(texto, desplazamiento) {
+    if (!texto) 
+        return ''; // No se recomienda que haya más de un punto de salida de la función
+    const letras = '1234567890+*-";,?¡=)(/&%#:';
+    //Si aceptamos desplazamientos negativos, necesitamos hacerlo dos veces. Si no, sería:
+    //desplazamiento = desplazamiento % 26;
+    desplazamiento = (desplazamiento % 26 - 26) % 26; 
+    return texto.replace(/[1-:]/ig, c => letras[(letras.indexOf(c) - desplazamiento) % 26]);
 }*/

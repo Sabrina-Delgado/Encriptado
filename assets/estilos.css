@@ -9,6 +9,15 @@
 main {
     margin-top: 0%;
 }
+.name { 
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 13px;
+    position: absolute;
+    margin-top: 645px ;
+    margin-left: 160px;
+    padding-bottom: 0%;
+}
+
 
 .title {
     margin-top: 0%;
