@@ -1,4 +1,7 @@
-
+body {
+    margin: 0%;
+    padding: 0%;
+}
 .portada-del-lado-derecho {
     background-color: #4b685a;
     height: 680px;
